@@ -5,8 +5,8 @@ people.shift()
 console.log(people)//supprimer Greg
 people.splice(2,1,"Jason")
 console.log(people)// remplacer "James" par "Jason".
-people.push("Salwa")
-console.log(people)//ajouter mon nom
+people.push("Aya")
+console.log(people)//ajouter le nom
 console.log(people.indexOf("Mary"))
 //
 const NewPeople=people.slice(1)
@@ -33,7 +33,7 @@ for(const x of people){
  //----------------EXERCICE 3-----------------------------
  /*let number=null
  while(number !=10){
-    const answer=prompt('plrase enter a number')
+    const answer=prompt('Veuillez saisir un nombre')
     number=Number(answer)
  }*/
  //----------------EXERCICE 4-----------------------------
@@ -77,7 +77,7 @@ console.log( building)*/
 for ( y in famille){
     console.log( famille[y]) }*/
 //----------------EXERCICE 6-----------------------------
-const details = {
+/*const details = {
     my: 'name',
     is: 'Rudolf',
     the: 'raindeer'
@@ -89,10 +89,10 @@ for (const x in details){
 console.log(sentence)
 //----------------EXERCICE 7-----------------------------
 const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
-let acronym=""
+let allName=""
 const sortedNames= names.sort()
 for(const name of sortedNames){
     console.log(name)
-    acronym= acronym+name[0]
+    allName= allName+name[0]
 }
-console.log(acronym)
+console.log(allName)*/
